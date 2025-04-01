@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trablho Final</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
+        <a class="navbar-brand" href="index.html">Logo da empresa</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aula01.html">Aula 01</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Atividade02.html">Atividade02</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Atividade03.html">Atividade03</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Integrantes.html">Integrantes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-12 col-sm-12 mb-2">
+                <div class="form-group">
+                    <label>texto 1</label>
+                    <input type="number" name="txt1" class="form-control" id="txt1">
+                    <label>texto 2</label>
+                    <input type="number" name="txt2" class="form-control" id="txt2">
+                    <label>texto 3</label>
+                    <input type="number" class="form-control" name="txt3" id="txt3">
+                </div>
+                <input type="button" class="btn mb-4" value="Calcular" id="calcular">
+    
+                <div class="alert alert-primary" id="ordem" style="font-weight: bold; font-size: 18pt;"></div>
+                <div class="alert alert-success" id="media" style="font-weight: bold; font-size: 18pt;"></div>
+                <div class="alert alert-warning" id="loop" style="font-weight: bold; font-size: 18pt;"></div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/calcularATV.js"></script>
+</body>
+</html>
