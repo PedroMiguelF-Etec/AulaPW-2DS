@@ -1,0 +1,25 @@
+body{
+    background-color: #161b23;
+    color: white ;
+}
+nav{
+    background-color: #3a2e90;
+}
+
+.card-header{
+    background-color: #222830;
+    border-color: white;
+}
+
+.card{
+    border-color: white;
+    color: white;
+}
+.card-body{
+    background-color: #2b313c;
+}
+.form-control{
+    color: white;
+    background-color: #161b23;
+    
+}
