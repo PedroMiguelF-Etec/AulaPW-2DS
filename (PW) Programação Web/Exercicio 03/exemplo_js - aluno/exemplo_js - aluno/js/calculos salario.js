@@ -19,7 +19,7 @@ $("#calcular").click(function() {
     var inss = SalarioBruto * 0.08
     var valetransport = SalarioBruto * 0.05
 
-    var valordependetes = Dependentes * 50'
+    var valordependetes = Dependentes * 50
 
     var SalarioLiquido = SalarioBruto - inss - valetransport + bonusidade + valordependetes
     
